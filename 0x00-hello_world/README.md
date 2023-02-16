@@ -8,4 +8,6 @@ DIR: Contains scripts and possibly c files on introduction to C
 
 . 2-assembler: An assembler for c files that generates Assembly code.
 
-. 3-
+. 3-name: Compiles a C file named in the variable $CFILE and generates an executable named 'cisfun'.
+
+. 4-
