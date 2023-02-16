@@ -10,4 +10,6 @@ DIR: Contains scripts and possibly c files on introduction to C
 
 . 3-name: Compiles a C file named in the variable $CFILE and generates an executable named 'cisfun'.
 
-. 4-
+. 4-puts.c: A c file that prints ""Programming is like building a multilingual puzzle"" with a new line after being compiled.
+
+.5-
