@@ -4,3 +4,6 @@ DIR: Contains scripts and possibly c files on introduction to C
 
 . 0-preprocessor: A preprocessor for c files.
 
+. 1-compiler: A complier that doesn't link.
+
+. 2-
