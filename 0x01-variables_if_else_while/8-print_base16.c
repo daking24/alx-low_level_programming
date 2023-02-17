@@ -12,16 +12,16 @@
  */
 int main(void)
 {
-int base_sixteen_number;
-char base_sixteen_letter;
+int number;
+char letter;
 
-for (base_sixteen_number = 0; base_sixteen_number < 10; base_sixteen_number++)
+for (number = 0; number < 10; number++)
 {
-putchar((base_sixteen_number % 10) + '0');
+putchar((number % 10) + '0');
 }
-for (base_sixteen_letter = 'a'; base_sixteen_letter <= 'f'; base_sixteen_letter++)
+for (letter = 'a'; letter <= 'f'; letter++)
 {
-putchar(base_sixteen_letter);
+putchar(letter);
 }
 putchar('\n');
 
