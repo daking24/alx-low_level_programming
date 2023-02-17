@@ -18,5 +18,6 @@ for (low_alphabet = 'a'; low_alphabet <= 'z'; low_alphabet++)
 {
 putchar(low_alphabet);
 }
+putchar('\n');
 return (0);
 }
