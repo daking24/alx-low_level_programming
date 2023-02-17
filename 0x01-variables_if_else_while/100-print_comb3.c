@@ -23,7 +23,7 @@ putchar((digit_one % 10) + '0');
 putchar((digit_two % 10) + '0');
 if (digit_one == 8 && digit_two == 9)
 {
- continue;
+continue;
 }
 putchar(',');
 putchar(' ');
