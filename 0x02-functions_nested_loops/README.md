@@ -12,6 +12,7 @@ functions written in the project.
 | `1-alphabet.c`           | `void print_alphabet(void);`     |
 | `2-print_alphabet_x10.c` | `void print_alphabet_x10(void);` |
 | `3-islower.c`            | `int _islower(int c)`            |
+| `4-isalpha.c`            | `int _isalpha(int c)`            |
 
 ## Tasks :page_with_curl:
 
@@ -20,7 +21,7 @@ functions written in the project.
   followed by a new line.
   	   * The program returns `0`.
 
-* **1.I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game.**
+* **1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game.**
   * [1-alphabet.c](./1-alphabet.c): C program that prints all lowercase alphabets,
   followed by a new line.
 
@@ -34,4 +35,9 @@ functions written in the project.
     * The program returns `0` otherwise.
 
 * **4.isalpha. **
+  *[4-isalpha.c](./4-isalpha.c); Cprogram that checks for alphabets characters.
+  	* The program returns `1` if it is an alphabet.
+	* The program returns `0` otherwise.
+
+* **5. Sign. **
   *
