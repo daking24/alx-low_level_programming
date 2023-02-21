@@ -2,8 +2,14 @@
 
 void print_alphabet_x10(void)
 {
-int x;
-for (x=0; x <=10; x++){
-print_alphabet();
-}
+  int x;
+  char lower;
+  for(x = 0; x <= 10; x++)
+  {
+    for (lower='a'; lower <= 'z'; lower++)
+      {
+	_putchar(lower);
+      }
+    _putchar('\n');
+  }
 }
