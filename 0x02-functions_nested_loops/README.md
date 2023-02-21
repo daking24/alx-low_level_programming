@@ -11,6 +11,7 @@ functions written in the project.
 | ------------------------ | -------------------------------- |
 | `1-alphabet.c`           | `void print_alphabet(void);`     |
 | `2-print_alphabet_x10.c` | `void print_alphabet_x10(void);` |
+| `3-islower.c`            | `int _islower(int c)`            |
 
 ## Tasks :page_with_curl:
 
@@ -28,4 +29,9 @@ functions written in the project.
   followed by a new line.
 
 * **3. islower. **
+  * [3-islower.c](./3-islower.c): C program that checks for lowercase characters.
+    * The program returns `1` if it is lowercase.
+    * The program returns `0` otherwise.
 
+* **4.isalpha. **
+  *
