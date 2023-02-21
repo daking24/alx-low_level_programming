@@ -15,7 +15,7 @@ int x;
 char lower;
 for (x = 1; x <= 10; x++)
 {
-for (lower ='a'; lower <= 'z'; lower++)
+for (lower = 'a'; lower <= 'z'; lower++)
 {
 _putchar(lower);
 }
