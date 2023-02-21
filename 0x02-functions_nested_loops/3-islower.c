@@ -7,6 +7,7 @@
 
 /**
  * _islower - Checks if variable c contains a lowercase alphabet.
+ * @c: The character to be checked.
  *
  * Return: 1 if true, 0 if false.
  */
