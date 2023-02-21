@@ -10,7 +10,7 @@ functions written in the project.
 | File                     | Prototype                        |
 | ------------------------ | -------------------------------- |
 | `1-alphabet.c`           | `void print_alphabet(void);`     |
-
+| `2-print_alphabet_x10.c` | `void print_alphabet_x10(void);` |
 
 ## Tasks :page_with_curl:
 
@@ -22,4 +22,10 @@ functions written in the project.
 * **1.I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game.**
   * [1-alphabet.c](./1-alphabet.c): C program that prints all lowercase alphabets,
   followed by a new line.
+
+* **2.10 x alphabet. **
+  * [2-print_alphabet_x10.c](./2-print_alphabet_x10.c): C program that prints all lowercase alphabets 10 times,
+  followed by a new line.
+
+* **3. islower. **
 
