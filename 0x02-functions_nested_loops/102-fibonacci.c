@@ -24,7 +24,7 @@ c = a + b;
 printf("%lu", c);
 a = b;
 b = c;
-}
+
 
 if (count == 49)
 {
@@ -34,6 +34,6 @@ else
 {
 printf(", ");
 }
-
+}
 return (0);
 }
