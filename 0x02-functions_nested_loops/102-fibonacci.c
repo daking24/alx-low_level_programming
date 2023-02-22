@@ -1,6 +1,7 @@
 /*
  * File: 102-fibonacci.c
  * Auth: King David Ajayi
+ */
 
 #include <stdio.h>
 
