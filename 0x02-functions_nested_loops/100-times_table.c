@@ -26,7 +26,7 @@ _putchar(' ');
 res = val * fac;
 if (res <= 99)
 {
- _putchar(' ');
+_putchar(' ');
 }
 if (res <= 9)
 {
