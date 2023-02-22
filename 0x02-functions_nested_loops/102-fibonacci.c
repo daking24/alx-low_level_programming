@@ -15,7 +15,7 @@
 int main(void)
 {
 int count = 50;
-int a = 1, b = 2, c;
+int a = 1, b = 1, c;
 int i;
 
 printf("%d, %d", a, b);
