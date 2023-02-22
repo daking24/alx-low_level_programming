@@ -14,21 +14,26 @@
  */
 int main(void)
 {
-int count = 50;
-int a = 1, b = 1, c;
-int i;
+int count;
+unsigned long a = 0, b = 1, c;
 
-printf("%d, %d", a, b);
 
-for (i = 3; i <= count; i++)
+for (count = 0; count < 50; count++)
 {
 c = a + b;
-printf(", %d", c);
+printf("%lu", c);
 a = b;
 b = c;
 }
 
+if (count == 49)
+{
 printf("\n");
+}
+else
+{
+printf(", ");
+}
 
 return (0);
 }
