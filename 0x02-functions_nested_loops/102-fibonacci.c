@@ -16,10 +16,11 @@ int main(void)
 {
 int count = 50;
 int a = 1, b = 2, c;
+int i;
 
 printf("%d, %d", a, b);
 
-for (int i = 3; i <= count; i++)
+for (i = 3; i <= count; i++)
 {
 c = a + b;
 printf(", %d", c);
