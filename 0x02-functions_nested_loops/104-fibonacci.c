@@ -21,7 +21,7 @@ unsigned long n1, n2;
 for (count = 0; count < 92; count++)
 {
 c = a + b;
-printf("%lu, ", sum);
+ printf("%lu, ", c);
 a = b;
 b = c;
 }
