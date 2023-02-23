@@ -10,7 +10,7 @@
  * @a: First integer
  * @b: Second integer
  *
- * Return:
+ * Return: Multipled value.
  */
 int mul(int a, int b)
 {
