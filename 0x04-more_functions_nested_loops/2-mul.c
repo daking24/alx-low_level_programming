@@ -3,16 +3,17 @@
  * Auth: King David Ajayi
  */
  
- #include "main.h"
+#include "main.h"
  
- /**
-  * mul - Multiply 2 integers
-  * @a: First integer
-  * @b: Second integer
-  *
-  * Return:
-  */
+/**
+ * mul - Multiply 2 integers
+ * @a: First integer
+ * @b: Second integer
+ *
+ * Return:
+ */
 int mul(int a, int b)
 {
-return (a * b);
+int c = a * b;
+return (c);
 }
