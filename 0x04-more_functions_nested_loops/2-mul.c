@@ -2,18 +2,20 @@
  * File: 2-mul.c
  * Auth: King David Ajayi
  */
- 
-#include "main.h"
 
+#include "main.h"
 /**
- * mul - multiplies two integers
- *
- * @a: first integer
- * @b: second integer
- *
- * Return: the result of multiplication
+ * mul - checks for checks for a digit (0 through 9).
+ * @a: a - Variable
+ * @b: b - variable
+ * Return: Always 0.
  */
 int mul(int a, int b)
 {
-return (a * b);
+int mul;
+
+mul = a * b;
+
+return (mul);
 }
+
