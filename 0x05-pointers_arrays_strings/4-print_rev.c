@@ -19,7 +19,7 @@ for (i = 0; s[i] != '\0'; i++)
 counter++;
 }
 
-for (n = (fcounter - 1); n >= 0; n--)
+for (n = (counter - 1); n >= 0; n--)
 {
 _putchar(s[n]);
 }
