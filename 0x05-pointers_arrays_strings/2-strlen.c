@@ -8,6 +8,8 @@
 /**
  * _strlen - Counts the length of a string.
  * @s: Each character in the string.
+ *
+ * Return: Length of string.
  */
 int _strlen(char *s)
 {
