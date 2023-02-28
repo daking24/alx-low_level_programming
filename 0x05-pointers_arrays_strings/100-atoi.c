@@ -19,7 +19,7 @@ while (*(s + count) != '\0')
 {
 if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
 {
- break;
+break;
 }
 if (*(s + count) == '-')
 {
@@ -40,5 +40,6 @@ for (i = count - size; i < count; i++)
 oi = oi + ((*(s + i) - 48) * m);
 m /= 10;
 }
-return (oi * pn);
+unsigned int res = oi * pn;
+return (res);
 }
