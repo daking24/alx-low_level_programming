@@ -3,7 +3,7 @@
  * Auth: King David Ajayi
  */
 
-#include <stdio.
+#include <stdio.h>
 #include "main.h"
 
 /**
