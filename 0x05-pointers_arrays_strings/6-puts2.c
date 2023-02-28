@@ -1,6 +1,7 @@
 /*
  * File: 6-puts2.c
  * Auth: King David Ajayi
+ */
 
 #include "main.h"
 
