@@ -1,9 +1,9 @@
 /*
- *
- *
+ * File: 100-rot13.c
+ * Auth: King David Ajayi
  */
 
-#include "mainn.h"
+#include "main.h"
 
 /**
  * rot13 - encode string using rot13
