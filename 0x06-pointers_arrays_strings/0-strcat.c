@@ -23,10 +23,10 @@ i++;
 }
 while (*(src + j))
 {
-*(dest+i) = *(src+j);
+*(dest + i) = *(src + j);
 i++;
 j++;
 }
-*(dest+i) = '\0';
+*(dest + i) = '\0';
 return (dest);
 }
