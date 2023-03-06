@@ -7,7 +7,7 @@
 
 /**
  * print_chessboard - Prints the chessboard.
- * @a:
+ * @a: input
  */
 void print_chessboard(char (*a)[8])
 {
