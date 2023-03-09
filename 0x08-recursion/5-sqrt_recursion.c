@@ -1,5 +1,5 @@
 /*
- * File: 5-sqrt_recursion.c 
+ * File: 5-sqrt_recursion.c
  * Auth: King David Ajayi
  */
 
