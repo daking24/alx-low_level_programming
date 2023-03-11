@@ -1,5 +1,5 @@
 /*
- * File: 0-whatsmyname.c
+ * File: 1-args
  * Auth: King David Ajayi
  */
 
@@ -7,14 +7,12 @@
 #include "main.h"
 
 /**
- * main - print name of program
+ * main - print number of arguments passed to program
  * @argc: argument counter
  * @argv: pointer to array of arguments
  * Return: 0 on success
  */
-
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-printf("%s\n", argv[0]);
-return (0);
+printf("%d\n", argc);
 }
