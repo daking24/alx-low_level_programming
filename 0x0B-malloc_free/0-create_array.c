@@ -3,7 +3,7 @@
  * Auth: King David Ajayi
  */
 
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 
 /**
