@@ -3,9 +3,7 @@
  * Auth: King David Ajayi
  */
 
-#include <stdlib.h>
 #include <stdio.h>
-#include "holberton.h"
 
 /**
  * main - Entry Point
