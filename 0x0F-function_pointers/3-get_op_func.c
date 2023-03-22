@@ -25,12 +25,11 @@ op_t ops[] = {
 {NULL, NULL}
 };
     
-for (int i = 0; ops[i].op != NULL; i++)
+int i = 0;
+
+while (ops[i].op != NULL && *(ops[i].op) != *s)
 {
-if (*(ops[i].op) == *s)
-{
+i++;
+}
 return (ops[i].f);
-}
-}
- return (NULL);
 }
