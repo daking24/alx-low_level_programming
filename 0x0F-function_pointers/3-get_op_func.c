@@ -1,6 +1,6 @@
-rewrite the following function with for loop - /*
+/*
  * File: 3-get_op_func.c
- * Auth: Brennan D Baraban
+ * Auth: King David Ajayi
  */
 
 #include "3-calc.h"
