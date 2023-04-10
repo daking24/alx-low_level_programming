@@ -11,7 +11,7 @@
  * @index: Index to set the value at.
  *
  * Return: If error - (-1)
- * 	   Else - 1
+ *	Else - 1
  */
 int clear_bit(unsigned long int *n, unsigned int index)
 {

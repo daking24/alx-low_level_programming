@@ -11,7 +11,7 @@
  * @index: The index to set the value.
  *
  * Return: If error occurs - (-1).
- * 	   Else - 1.
+ * 		Else - 1.
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {

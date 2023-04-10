@@ -11,7 +11,7 @@
  * @index: The index to get the value at.
  *
  * Return: If an error occurs - (-1).
- * 	   Else - The value of bit at index.
+ *		Else - The value of bit at index.
  */
 int get_bit(unsigned long int n, unsigned int index)
 {

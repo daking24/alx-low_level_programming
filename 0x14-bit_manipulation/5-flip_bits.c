@@ -7,8 +7,8 @@
 
 /**
  * flip_bits - Returns the number of bits needed to flip
- * 	       to get from one number to another.
- * @n: The number. 
+ *		to get from one number to another.
+ * @n: The number.
  * @m: The number to flip @n to.
  *
  * Return: The number of bits to flip to get from @n to @m.
@@ -21,9 +21,9 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	b = 0;
 	while (a > 0)
 	{
-		b += ( a & 1);
+		b += (a & 1);
 		a >>= 1;
 	}
 
-	return(b);
+	return (b);
 }
