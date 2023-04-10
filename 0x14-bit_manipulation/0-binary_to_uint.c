@@ -14,29 +14,30 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int number = 0, mult = 1;
-	int len;
+	unsigned int uint = 0; /* unsigned int variable to hold the result */
+	int index = 0; /* index variable for iterating through the string */
 
-	if (*b == '\0')
+	if (b == NULL)
 	{
 		return (0);
 	}
 
-	for (len = 0; b[len];)
+	while (b[index] != '\0') /* iterate through the string */
 	{
-		len++;
-	}
-
-	for (len -= 1; len >= 0; len--)
-	{
-		if (b[len] != '0' && b[len] != '1')
+		if (b[index] == '0') /* if current char is '0' */
 		{
-			return (0);
+			uint <<= 1; /* shift uint left by one bit */
 		}
-
-		number += (b[len] - '0') * mult;
-		mult *= 2;
+		else if (b[index] == '1') /* if current char is '1' */
+		{
+			uint <<= 1; /* shift uint left by one bit */
+			uint |= 1; /* set the least significant bit to 1 */
+		} else /* if current char is not '0' or '1' */
+		{
+			return (0); /* return 0 */
+		}
+		index++; /* increment index */
 	}
 
-	return (number);
+	return (uint); /* return the resulting unsigned int */
 }
